@@ -1,0 +1,5 @@
+groups:
+  containers:
+    tasks:
+      deploy:
+        run: echo "ok"

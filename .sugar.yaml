@@ -1,0 +1,21 @@
+backend: compose
+defaults:
+  group: ${{ env.SUGAR_GROUP }}
+  project-name: mhai
+
+groups:
+  dev:
+    config-path:
+      - containers/compose.dev.yaml
+    services:
+      default: literev-legal-deps
+      available:
+        - name: literev-legal-deps
+
+  prod:
+    config-path:
+      - containers/compose.prod.yaml
+    services:
+      default: literev-legal-deps
+      available:
+        - name: literev-legal-deps

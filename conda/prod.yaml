@@ -1,0 +1,13 @@
+name: literev-legal
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - compilers
+  - nodejs >=18
+  - yarn
+  - poetry
+  - pip
+  - pip:
+      - compose-go
