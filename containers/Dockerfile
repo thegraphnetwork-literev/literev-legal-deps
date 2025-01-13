@@ -5,11 +5,11 @@ FROM condaforge/mambaforge:latest
 ARG ENV=base
 
 LABEL maintainer="Ivan Ogasawara <ivan.ogasawara@gmail.com>"
-LABEL org.opencontainers.image.title="Mhai"
-LABEL org.opencontainers.image.authors="Mhai Team"
-LABEL org.opencontainers.image.source="https://github.com/mentalhealthai-org/literev-legal-deps"
+LABEL org.opencontainers.image.title="LiteRev"
+LABEL org.opencontainers.image.authors="LiteRev Team"
+LABEL org.opencontainers.image.source="https://github.com/thegraphnetwork-literev/literev-legal-deps"
 LABEL org.opencontainers.image.version="${ENV}"
-LABEL org.opencontainers.image.description="Mhai Web"
+LABEL org.opencontainers.image.description="LiteRev Web"
 LABEL org.mentalhealthai_org.config.version="${ENV}"
 
 # it is the default, but using it here to have it explicitly

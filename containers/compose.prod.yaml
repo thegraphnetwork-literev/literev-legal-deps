@@ -1,6 +1,6 @@
 services:
   literev-legal-deps:
-    image: ghcr.io/mentalhealthai-org/literev-legal-deps:prod
+    image: ghcr.io/thegraphnetwork-literev/literev-legal-deps:prod
     build:
       context: ..
       dockerfile: ./containers/Dockerfile
