@@ -8,8 +8,9 @@ dependencies:
   - nodejs >=18
   - yarn
   - poetry >=2
-  - libxcrypt
+  - libxcrypt # fix issue with annoy
   - pip
   - pip:
       - compose-go<2.31.0
-      - annoy==1.17.3
+      - annoy==1.17.3 # issue with pep517
+      - jsbeautifier # No module named 'distlib'
