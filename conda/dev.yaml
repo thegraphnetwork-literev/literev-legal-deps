@@ -11,3 +11,4 @@ dependencies:
   - pip
   - pip:
       - compose-go<2.31.0
+      - annoy==1.17.3

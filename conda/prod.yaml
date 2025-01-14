@@ -11,3 +11,4 @@ dependencies:
   - pip
   - pip:
       - compose-go
+      - annoy==1.17.3 # not supporting PEP 517 builds
