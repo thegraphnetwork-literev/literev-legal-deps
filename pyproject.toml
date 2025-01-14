@@ -43,12 +43,11 @@ dependencies = [
   "langchain>=0.3.6",
   "django-filter>=24.3",
   "jsbeautifier (==1.15.1)",
+  "torch>=2.5",
+  "torchvision>=0.20.0"
 ]
 
 [tool.poetry]
-packages = [
-    { include = "literev/*.py", from = "src" },
-]
 package-mode = false
 
 [[tool.poetry.source]]
@@ -57,7 +56,6 @@ url = "https://download.pytorch.org/whl/cpu"
 priority = "supplemental"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.11.dev0"
 torch = [
   {version = ">=2.5.0", source="pytorch-cpu"},
 ]

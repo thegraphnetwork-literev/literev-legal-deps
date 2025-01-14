@@ -1,4 +1,4 @@
-name: literev-legal
+name: literev-legal-dev
 channels:
   - nodefaults
   - conda-forge
@@ -8,6 +8,7 @@ dependencies:
   - nodejs >=18
   - yarn
   - poetry >=2
+  - libxcrypt
   - pip
   - pip:
       - compose-go<2.31.0
